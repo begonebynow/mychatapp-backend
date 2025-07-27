@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "*", // Update this with frontend URL when deploying
+    origin: "chitchat-40aj4kw5p-begonebynows-projects.vercel.app", // Update this with frontend URL when deploying
     methods: ["GET", "POST"],
   },
 });
